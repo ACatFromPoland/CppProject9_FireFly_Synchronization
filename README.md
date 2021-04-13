@@ -12,7 +12,7 @@ Preview
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/67654528/114602842-fb47ae00-9c8e-11eb-80da-9d6918ce10e4.gif)
 
 
-Full video on Youtube -- https://youtu.be/nWG7fOTy0w0
+Full video on Youtube -- https://youtu.be/qyJ7WQDwEck
 
 This uses the SFML library. -- I think its the 64bit Visual Studio 15 one.
 
