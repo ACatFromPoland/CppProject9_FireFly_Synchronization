@@ -2,8 +2,8 @@
 #include "Vectors.h"
 #include "buttonInput.h"
 
-#define WINDOWX 800
-#define WINDOWY 800
+#define WINDOWX 150
+#define WINDOWY 150
 
 #define getrandom(min,max) ((rand()%(int)(((max) + 1) -(min))) + (min))
 
@@ -27,7 +27,7 @@ public:
 
 	float timeToflash = (float)getrandom(10, 80);
 	float flashLength = 0.2f;
-	float sight = 80.f;
+	float sight = 55.f;
 
 	bool flashing = false;
 
@@ -92,7 +92,7 @@ int main()
 	//newPressMouse spacekey = newPressMouse(sf::Mouse::Left);
 	newPressKey spacekey = newPressKey(sf::Keyboard::Space);
 
-	const int insectAmount = 600;
+	const int insectAmount = 9;
 	Insect insectArray[insectAmount];
 
 	sf::Event event;
